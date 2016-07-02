@@ -1,4 +1,5 @@
 FROM java:openjdk-8-jdk-alpine
+MAINTAINER John Bowler <john@memsql.com>
 
 ARG jenkins_home=/home/jenkins
 ARG user=jenkins
